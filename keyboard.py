@@ -7,7 +7,6 @@ win.title("Keyboard")
 win.resizable(0, 0)
 win.config(bg="white")
 win.wm_attributes("-transparentcolor", "white")
-win.attributes("-topmost",True)
 win.overrideredirect(True)
 
 def leave():
